@@ -20,6 +20,7 @@ class HomeController extends AbstractController
      * @throws \Twig\Error\SyntaxError
      */
     public function index()
+
     {
         session_start();
         session_destroy();

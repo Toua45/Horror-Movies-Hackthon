@@ -11,6 +11,7 @@ body
 .title-home {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 150px;
     margin-right: 7%;
     font-family: "Nosifer", cursive;
@@ -68,7 +69,6 @@ body
     position: absolute;
     box-sizing: border-box;
     border-radius: 3px;
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, .0) inset;
     transition: 0.5s transform linear;
     transform-origin: left;
     cursor: pointer;
