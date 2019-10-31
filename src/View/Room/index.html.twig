@@ -1,0 +1,24 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheet %}<link rel="stylesheet" href="/assets/css/styleRoom.css">{% endblock %}
+
+{% block content %}
+
+    <img class="bg-img" src="/assets/images/scene-crime2.jpg" alt="">
+    <div class="container">
+
+        <h1>Quel élément appartient au film {{ movie.title | replace({'_': " "}) }}  ?</h1>
+        <h1>{{ counter }}/7</h1>
+    </div>
+    <div class="container objets">
+
+        {% for image in responseElements %}
+            {% if image.statut %}
+                <a href="http://localhost:8000/room/showMovie/"><img class="{{ image.class }} position" src="{{image.imgUrl}}" alt=""></a>
+            {% else %}
+                <a href="/Final/lose"><img class="{{ image.class }} position" src="{{image.imgUrl}}" alt=""></a> {# Tout doux#}
+            {% endif %}
+        {% endfor %}
+
+    </div>
+{% endblock %}

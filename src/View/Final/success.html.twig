@@ -1,0 +1,22 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheet %}
+    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/winner.css">
+{% endblock %}
+
+{% block title %}You win !!!!!{% endblock %}
+
+{% block content %}
+    <section class="win">
+        <video autoplay muted loop id="myVideo">
+            <source src="/assets/images/success.mp4" type="video/mp4">
+        </video>
+
+        <div class="retry">
+            <h1>Vous vous êtes échappé !!</h1>
+            <h2>Libérééééé ! Délivréééé !<br>(mais intérieurement décédééé)</h2>
+            <a class="btn btn-success" href="/Intro/index" role="button">Retour à l'accueil</a>
+        </div>
+    </section>
+{% endblock %}

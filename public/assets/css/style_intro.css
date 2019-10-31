@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    background-image: url("/assets/images/motel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.text {
+
+    font-family: 'Handlee', cursive;
+    font-size: 27px;
+    font-style: italic;
+    margin-top: 150px;
+    width: 750px;
+    color: white;
+}
+
+.btn {
+    background-color: #400a11;
+    border: solid 1px #851424;
+}
