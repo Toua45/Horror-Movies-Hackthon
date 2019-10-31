@@ -1,7 +1,9 @@
 * {
     font-family: 'Nosifer', cursive;
     font-size: 3em;
-    color: crimson;
+    color: #75120c;
+    text-shadow: 0 0 0.3em black;
+
 }
 
 video#myVideo {
@@ -27,10 +29,10 @@ video#myVideo {
 }
 
 .btn {
-    background-color: crimson;
+    background-color: #75120c;
 }
 
 .btn:hover {
-    background-color: crimson;
+    background-color: #75120c;
     color: #400a11;
 }
