@@ -31,7 +31,7 @@ class MovieManager extends AbstractManager
      */
     public function __construct()
     {
-        parent::__construct(self::TABLE);
+ //       parent::__construct(self::TABLE);
         $this->client = HttpClient::create();
     }
 

@@ -81,7 +81,7 @@ class QuizzController extends AbstractController
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $score = $quizzManager->getScore($_POST);
             if ($score == 4) {
-                return $this->twig->render('Final/success.html.twig', ['score' => $score]);
+                return $this->twig->render('Final/winner.html.twig', ['score' => $score]);
             }else {
                 return $this->twig->render('Final/lose.html.twig', ['score' => $score]);
             }
