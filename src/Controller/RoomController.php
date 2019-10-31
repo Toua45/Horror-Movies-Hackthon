@@ -76,6 +76,5 @@ class RoomController extends AbstractController
             'counter' => $counter,
         ]);
 
-
     }
 }

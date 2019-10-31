@@ -12,12 +12,15 @@
 }
 
 .container * {
-    padding: 0.5rem;
     font-size: 1.4rem;
+    padding-top: 20px;
 }
 
 .titleForm {
     font-size: 2.5rem;
+    font-family: 'Nosifer', cursive;
+    color: #75120c;
+    text-align: center;
 }
 
 .label_text {
@@ -26,4 +29,18 @@
 
 .row_img {
     justify-content: center;
+}
+
+.btn-danger{
+    background-color: #75120c;
+    border-color: #75120c;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.btn-danger:hover{
+    background-color: #470a07;
+    border-color: #75120c;
 }
