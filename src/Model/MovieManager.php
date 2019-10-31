@@ -20,7 +20,7 @@ class MovieManager extends AbstractManager
      *
      */
     const URL_API = 'https://hackathon-wild-hackoween.herokuapp.com/movies/';
-    const TABLE = 'kaamelott';
+//    const TABLE = 'kaamelott';
     protected $response;
     protected $client;
     protected $content = [];
@@ -31,7 +31,7 @@ class MovieManager extends AbstractManager
      */
     public function __construct()
     {
-        parent::__construct(self::TABLE);
+//        parent::__construct(self::TABLE);
         $this->client = HttpClient::create();
     }
 
