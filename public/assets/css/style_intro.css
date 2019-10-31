@@ -2,6 +2,8 @@ body {
     background-color: black;
     background-image: url("/assets/images/motel.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .text {
