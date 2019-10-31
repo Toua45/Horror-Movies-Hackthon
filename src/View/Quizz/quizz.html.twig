@@ -20,7 +20,7 @@
                     <label for="director" class="col-6 label_text">Qui est le réalisateur de {{ movie.movie.title | replace({'_': " "}) }}</label>
                     <SELECT id="director" name="director" size="1" class="list col-6">
                         {% for director in directors %}
-                        <OPTION>{{ director | replace({'_': " "}) }}</OPTION>
+                        <OPTION>{{ director }}</OPTION>
                         {% endfor %}
                     </SELECT>
                     <input name='directorAnswer' type="hidden" value={{ movie.movie.director }}>
@@ -31,7 +31,7 @@
                     <label for="year" class="col-6 label_text">Quelle est l'année de sortie de {{ movie.movie.title | replace({'_': " "}) }}</label>
                         <SELECT id="year" name="year" size="1" class="list col-6">
                             {% for year in years %}
-                            <OPTION>{{ year | replace({'_': " "}) }}</OPTION>
+                            <OPTION>{{ year }}</OPTION>
                             {% endfor %}
                         </SELECT>
                         <input name='yearAnswer' type="hidden" value={{ movie.movie.year }}>
@@ -42,7 +42,7 @@
                     <label for="country" class="col-6 label_text">Quel est le pays d'origine de {{ movie.movie.title | replace({'_': " "}) }}</label>
                         <SELECT id="country" name="country" size="1" class="list col-6">
                             {% for country in countries %}
-                            <OPTION>{{ country | replace({'_': " "}) }}</OPTION>
+                            <OPTION>{{ country }}</OPTION>
                             {% endfor %}
                         </SELECT>
                         <input name='countryAnswer' type="hidden" value={{ movie.movie.country }}>
@@ -53,7 +53,7 @@
                         <label for="title" class="col-6 label_text">Quel est le film associé à l'affiche</label>
                         <SELECT id="title" name="title" size="1" class="list col-6">
                             {% for title in titles %}
-                                <OPTION>{{ title | replace({'_': " "}) }}</OPTION>
+                                <OPTION>{{ title }}</OPTION>
                             {% endfor %}
                         </SELECT>
                         <img src="{{ movie.movie.posterUrl }}" class="poster">
