@@ -95,7 +95,7 @@ body {
 
     font-family: 'Lakki Reddy', cursive;
     color: #2aa3a1;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px black;
 }
 
 h1 {
@@ -138,12 +138,13 @@ video#myVideo {
 }
 
 .btn {
-    background-color: green;
+    padding: 0px;
+
     border:none;
     text-shadow: none;
     font-size: 3em;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     background-color: #2aa3a1;
     margin-top: 20px;
 }
