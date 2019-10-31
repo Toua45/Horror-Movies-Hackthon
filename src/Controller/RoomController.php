@@ -43,7 +43,6 @@ class RoomController extends AbstractController
         $_SESSION['counter'] = $counter + 1;
 
         if ($counter == 7) {
-            die('coucou');
             header('Location: http://localhost:8000/final/lose');
         }
 
@@ -75,7 +74,6 @@ class RoomController extends AbstractController
             'responseElements' => $responseElements,
             'counter' => $counter,
         ]);
-
 
     }
 }
