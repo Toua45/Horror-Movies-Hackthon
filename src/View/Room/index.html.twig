@@ -8,6 +8,7 @@
     <div class="container">
 
             <h1>Quel élément appartient au film {{ movie.title | replace({'_': " "}) }}  ?</h1>
+
             <h1>{{ counter }}/7</h1>
         {% for image in responseElements %}
             {% if image.statut %}

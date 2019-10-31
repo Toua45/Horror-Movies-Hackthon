@@ -6,8 +6,8 @@ class FinalController extends AbstractController
 {
     public function lose()
     {
-        session_start();
-        session_destroy();
+        session_start();        //////// TODO : A mettre dans home
+        session_destroy();      /////// TODO : A mettre dans home
         return $this->twig->render('Final/lose.html.twig');
     }
 

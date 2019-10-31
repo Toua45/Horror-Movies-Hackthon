@@ -16,7 +16,10 @@ body
     margin-right: 7%;
     font-family: "Nosifer", cursive;
     color: #75120c;
-    font-size: 40px;
+    font-size: 50px;
+    text-shadow: 0 0 0.5em black;
+    text-align: center;
+
 }
 
 .home-page{
@@ -66,12 +69,11 @@ body
     position: absolute;
     box-sizing: border-box;
     border-radius: 3px;
-    box-shadow: 0 0 0 10px rgba(255, 255, 255, .0) inset;
     transition: 0.5s transform linear;
     transform-origin: left;
     cursor: pointer;
     margin-right: 60%;
-    margin-top: 80%;
+    margin-top: 90%;
     box-shadow: -1px 10px 10px 10px #000000 inset;
 }
 
