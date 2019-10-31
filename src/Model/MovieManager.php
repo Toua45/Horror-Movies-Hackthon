@@ -153,7 +153,7 @@ class MovieManager extends AbstractManager
         }
         $directors = array_unique($directors);
         shuffle($directors);
-        $directors = array_slice($directors, 0, 3);
+        $directors = array_slice($directors, 0, 1);
         return $directors;
     }
 
@@ -166,7 +166,7 @@ class MovieManager extends AbstractManager
         }
         $years = array_unique($years);
         shuffle($years);
-        $years = array_slice($years, 0, 3);
+        $years = array_slice($years, 0, 1);
         return $years;
     }
 
@@ -179,7 +179,7 @@ class MovieManager extends AbstractManager
         }
         $countries = array_unique($countries);
         shuffle($countries);
-        $countries = array_slice($countries, 0, 3);
+        $countries = array_slice($countries, 0, 1);
         return $countries;
     }
 
@@ -192,7 +192,7 @@ class MovieManager extends AbstractManager
         }
         $titles = array_unique($titles);
         shuffle($titles);
-        $titles = array_slice($titles, 0, 3);
+        $titles = array_slice($titles, 0, 1);
         return $titles;
     }
 
