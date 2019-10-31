@@ -12,4 +12,7 @@ function openDoor(field) {
             window.location.pathname = "Final/success"
         }, 2000)
     }
+    var audio=document.createElement('audio');
+    audio.setAttribute('src','/assets/images/witch2.ogg');
+    audio.play();
 }

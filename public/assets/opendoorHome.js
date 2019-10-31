@@ -12,4 +12,7 @@ function opendoorHome(field) {
             window.location.pathname = "/room/showmovie"
         }, 3500)
     }
+    var audio=document.createElement('audio');
+    audio.setAttribute('src','/assets/images/porte.mp3');
+    audio.play();
 }
