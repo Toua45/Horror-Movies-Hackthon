@@ -1,3 +1,5 @@
+First Hackathon - 30 and 31/10
+
 # Simple MVC
 
 ## Description
