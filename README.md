@@ -1,4 +1,8 @@
-First Hackathon - 30 and 31/10
+Hackathon #1 - 30 and 31/10
+
+Utilisation d'une API contenant des films d'horreur pour la création d'un quizz.
+
+Bootstrap/PHP/simpleMVC
 
 # Simple MVC
 
